@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Buttons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="kas">
+        <div>
+            <div class="logo">
+                <a href="index.html"><img id="man" src="./Logo.png" alt=""></a>
+            </div>
+            <div class="p">
+                <P><b>HOME</b></P>
+            </div>
+            <div class="Dashboard">
+                <img id="hi" src="./dashboard_FILL0_wght400_GRAD0_opsz24.png" alt="" height="28px">
+                <a href="index.html">
+                    <p id="hello">Dashboard</p>
+                </a>
+            </div>
+            <div class="bc">
+                <p><b>UI COMPONENTS</b></p>
+                <div id="ff">
+                    <img id="c" src="./chips_FILL0_wght400_GRAD0_opsz24.png" alt="" height="28px">
+                    <a href="Buttons.html">
+                        <p id="vc">Buttons</p>
+                    </a>
+                </div>
+                <div id="ff">
+                    <img id="c" src="./error_FILL0_wght400_GRAD0_opsz24.png" alt="" height="28px">
+                    <p id="vc">Alerts</p>
+                </div>
+                <div id="ff">
+                    <img id="c" src="./style_FILL0_wght400_GRAD0_opsz24.png" alt="" height="28px">
+                    <p id="vc">Card</p>
+                </div>
+                <div id="ff">
+                    <img id="c" src="./description_FILL0_wght400_GRAD0_opsz24.png" alt="" height="28px">
+                    <p id="vc">Form</p>
+                </div>
+                <div id="ff">
+                    <img id="c" src="./typography.png" alt="" height="30px">
+                    <p id="vc">Typography</p>
+                </div>
+                <div>
+                    <p id="helf"><b>AUTH</b></p>
+                    <div id="ff">
+                        <img id="c" src="./login_FILL0_wght400_GRAD0_opsz24.png" alt="" height="30px">
+                        <p id="vc">Login</p>
+                    </div>
+                    <div id="ff">
+                        <img id="c" src="./person_add_FILL0_wght400_GRAD0_opsz24.png" alt="" height="30px">
+                        <p id="vc">Register</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="display">
+            <div class="male">
+                <div>
+                    <img id="bad" src="./notifications_active_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                </div>
+                <div>
+                    <button id="right">Download Free</button>
+                </div>
+                <div class="userlogo">
+                    <img src="./WhatsApp Image 2024-02-06 at 15.00.27_db8de204.jpg" alt="" height="50px" width="50px">
+
+
+
+                    <div class="">
+                        <div class="uersdata">
+                            <div class="MyProfile">
+                                <a href="">
+                                <span class="material-symbols-outlined">
+                                    person
+                                    </span>
+                                </a>
+                                    <a href="">
+                                <h4>My Profile</h4>
+                            </a>
+                            </div>
+                            <div class="MyProfile">
+                               <a href="">
+                                <span class="material-symbols-outlined">
+                                    mail
+                                    </span>
+                                </a>
+                                    <a href="">
+                                <h4>My Account</h4>
+                            </a>
+                            </div>
+                            <div class="MyProfile">
+                                <a href="">
+                                <span class="material-symbols-outlined">
+                                    checklist
+                                    </span>
+                                </a>
+                                    <a href="">
+                                <h4>My Task</h4>
+                                </a>
+                            </div>
+                            <div class="MyProfile">
+                                <button>Logout</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chart">
+            <div>
+                <canvas id="myChart"></canvas>
+              </div> 
+            </div>   
+        </div>
+    </div>
+    <div>
+        
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(".userlogo").on("click", function () {
+        $(".uersdata").toggle("slow", function () {
+        });
+    });
+</script>
+</body>
+</html>

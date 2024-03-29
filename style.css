@@ -1,0 +1,210 @@
+.kas {
+    height: 400px;
+    display: flex;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.display {
+    margin-left: 250px;
+}
+
+.male {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background: white;
+}
+
+.image {
+    display: flex;
+}
+
+.pimage1 {
+    margin-left: 20px;
+
+}
+
+.pimage2 {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.pimage3 {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.pimage4 {
+    margin-left: 20px;
+}
+
+.gpo2 {
+    display: flex;
+    width: 150px;
+}
+
+.flexs {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-right: 20px;
+}
+
+del {
+    margin-left: 30px;
+
+}
+
+.nav {
+    position: fixed;
+    background: white;
+}
+
+
+.p {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.Dashboard {
+    display: flex;
+    margin-left: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#hello {
+    display: inline-block;
+    margin-left: 12px;
+}
+
+#hi {
+    margin-top: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.bc {
+    margin-top: 45px;
+    margin-left: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#vc {
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 14px;
+}
+
+#c {
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#ff {
+    display: flex;
+}
+
+#helf {
+    margin-top: 45px;
+    margin-left: 7px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+#bad {
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 12px;
+}
+
+#right {
+    display: inline-block;
+    margin-left: 910px;
+    padding: 9px 16px;
+    background-color: #5d87ff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.userlogo {
+    margin-left: 50px;
+
+}
+
+.userlogo img {
+    border-radius: 100px;
+}
+
+.uersdata {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    height: 250px;
+    width: 200px;
+    display: none;
+    right: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.MyProfile {
+    color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 5px 7px;
+}
+h4 {
+    color: black;
+    text-decoration: none;
+}
+
+.material-symbols-outlined {
+    color: black;
+    margin-right: 20px;
+}
+
+.MyProfile button {
+    padding: 8px 50px;
+    margin: 8px 10px 0px;
+    border: 1px solid #5d87ff;
+    border-radius: 5px;
+}
+
+.MyProfile button:hover {
+    background-color: #5d87ff;
+    color: white;
+
+}
+
+#ff:hover {
+    background-color: #5d87ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.Dashboard:hover {
+    background-color: #5d87ff;
+    color: white;
+    border-radius: 5px;
+}
+
+#right:hover {
+    background-color: rgba(5, 5, 100, 0.79);
+}
+
+.RecentTransactions {
+    width: 751.2;
+    height: 465.6;
+    padding: 24px;
+}
+
+/* main css strat */
+.chart {
+    width: 90%;
+}
